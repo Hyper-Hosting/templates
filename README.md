@@ -28,22 +28,24 @@ Make sure you have Node.js and npm (Node Package Manager) installed on your syst
 ## Project Setup
 
 1. **Initialize a new Node.js project:**
-   ```bash (terminal)
+   ```bash
    npm init -y
 
 2. **Install the required packages:**
-   ```bash (terminal)
+   ```bash
    npm install cookie-parser dotenv ejs express express-ejs-layouts mongoose
 
 ## Configuration
 
 1. **Package.json File**
    Edit script to the following:
-   ```"scripts": {
+   ``` json
+   "scripts": {
     "dev": "node --trace-warnings .",
     "start": "node --unhandled-rejections=warn --trace-deprecation ."
    },
 
 2. **Add a new file called .gitignore**
    Add the following text in it:
-   ```node_modules/
+   ```.gitignore
+   node_modules/
