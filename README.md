@@ -23,7 +23,9 @@ Make sure you have Node.js and npm (Node Package Manager) installed on your syst
    - Open the folder in file explorer
 
 2. **Download this folder**
-   - 
+   - Click the code dropdown
+   - Download ZIP
+   - Extract it into your newly made repository
 
 ## Project Setup
 
