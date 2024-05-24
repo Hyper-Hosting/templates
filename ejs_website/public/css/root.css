@@ -1,0 +1,10 @@
+/* This is the colours you want to use on the website, they can be accessed at any time in all CSS files */
+:root {
+  --primary: #1a1a1a;
+  --secondary: #252525;
+  --cta: #FC0F3E;
+  --accent: #1f95ef;
+  --text: #bebebe;
+  --white: #ffffff;
+  --black: #000000;
+}

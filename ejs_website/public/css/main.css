@@ -1,0 +1,19 @@
+/* THIS IS THE FONT IMPORT */
+/* YOU CAN GET FONTS FROM https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0; /* DO NOT CHANGE */
+  padding: 0; /* DO NOT CHANGE */
+  box-sizing: border-box; /* DO NOT CHANGE */
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: var(--primary);
+}
+
+#main-content {
+  position: relative;
+  min-height: 100vh;
+}

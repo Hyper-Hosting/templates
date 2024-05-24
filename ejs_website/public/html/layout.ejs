@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Darcie Rainbird" />
+    <title><%= locals.title %></title>
+
+    <!-- This loads all the CSS files -->
+    <%- include('./partials/css.ejs') %>
+
+    <!-- GOOGLE ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+
+  <body>
+    <!-- This is the header that will be displayed on all page -->
+    <header>
+      <!-- Header code goes here -->
+    </header>
+
+    <!-- This will be where your ejs file loads -->
+    <div id="main-content"><%- body %></div>
+
+    <!-- This is the footer that will be displayed on all page -->
+    <footer>
+      <p>&copy; 2023-2024 Hyper Hosting. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
