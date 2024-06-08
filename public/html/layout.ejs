@@ -19,16 +19,15 @@
 
   <body>
     <!-- This is the header that will be displayed on all page -->
-    <header>
-      <!-- Header code goes here -->
-    </header>
+    <!-- Header code goes here -->
+    <%- include('./partials/header.ejs') %>
 
     <!-- This will be where your ejs file loads -->
     <div id="main-content"><%- body %></div>
 
     <!-- This is the footer that will be displayed on all page -->
-    <footer>
-      <p>&copy; 2023-2024 Hyper Hosting. All rights reserved.</p>
-    </footer>
+    <%- include('./partials/footer.ejs') %>
+
+    <script src="/js/header.js"></script>
   </body>
 </html>
